@@ -4,9 +4,6 @@ import { StyleSheet, View } from 'react-native';
 import Lottie from 'lottie-react-native';
 
 export default function LifeStatus() {
-
-
-
   return (
     <View style={styles.container}>
       <Lottie

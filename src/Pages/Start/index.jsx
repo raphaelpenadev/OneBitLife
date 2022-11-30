@@ -1,9 +1,15 @@
 import React from 'react';
 import { Image, ScrollView, StyleSheet, Text, View } from 'react-native';
+import DefaultButton from '../../Components/Common/DefaultButton';
 
 import LifeStatus from "../../Components/Common/LifeStatus";
 
 export default function Start() {
+
+  const handleNavAppExplanation = () => {
+    console.log("Testando o clique");
+  };
+
   return (
     <View style={styles.container}>
       <ScrollView showVerticalScrollIndicator={false} />
@@ -15,6 +21,12 @@ export default function Start() {
         <Text style={styles.description}>
           Vamos transformar sua vida {"\n"} em jogo. Buscando sempre {"\n"} o melhor nível.
         </Text>
+
+        <DefaultButton
+          buttonText={"Continuar"}
+          handlePress={handleNavAppExplanation}
+          width={200}
+          height={50} />
       </View>
     </View>
   );
@@ -23,7 +35,8 @@ export default function Start() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "rgba(21,21,21, 0.98)"
+    backgroundColor: "rgba(21,21,21, 0.98)",
+    height: "auto"
   },
 
   logo: {
