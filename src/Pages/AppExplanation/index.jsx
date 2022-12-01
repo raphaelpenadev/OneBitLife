@@ -55,8 +55,8 @@ const styles = StyleSheet.create({
     color: "white",
     fontWeight: "bold",
     fontSize: 16,
-    maarginTop: 20,
-    marginBottom: 10
+    marginTop: 20,
+    marginBottom: 10,
   },
   description: {
     color: "white",

@@ -14,7 +14,7 @@ export default function ExplanationCard() {
           style={styles.icon}
         />
         <Text style={styles.description}>
-          <Text style={styles.mind}>Mente:</Text> Habitos para melhorar sua inteligência/sabedoria.
+          <Text style={styles.mind}>Mente:</Text> Habitos para melhorar sua {"\n"} inteligência/sabedoria.
         </Text>
       </View>
 
@@ -24,7 +24,7 @@ export default function ExplanationCard() {
           style={styles.icon}
         />
         <Text style={styles.description}>
-          <Text style={styles.money}>Financeiro:</Text> Habitos para te ajudar com o controle financeiro.
+          <Text style={styles.money}>Financeiro:</Text> Habitos para te ajudar com {"\n"} o controle financeiro.
         </Text>
       </View>
 
@@ -35,7 +35,7 @@ export default function ExplanationCard() {
           style={styles.icon}
         />
         <Text style={styles.description}>
-          <Text style={styles.body}>Corpo:</Text> Habitos para te deixar mais saúdavel e forte.
+          <Text style={styles.body}>Corpo:</Text> Habitos para te deixar {"\n"} mais saúdavel e forte.
         </Text>
       </View>
 
@@ -45,7 +45,7 @@ export default function ExplanationCard() {
           style={styles.icon}
         />
         <Text style={styles.description}>
-          <Text style={styles.fun}>Humor:</Text> Habitos para diminuir o stress e aumentar a felicidade.
+          <Text style={styles.fun}>Humor:</Text> Habitos para diminuir o stress {"\n"} e aumentar a felicidade.
         </Text>
       </View>
 
