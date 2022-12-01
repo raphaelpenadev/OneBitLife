@@ -36,7 +36,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "rgba(21,21,21, 0.98)",
-    height: "auto"
   },
 
   logo: {
